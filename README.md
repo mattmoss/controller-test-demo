@@ -1,16 +1,18 @@
-= Summary
+# Summary
 
 0. mn --version
 
-  | Micronaut Version: 1.2.6
-  | JVM Version: 1.8.0_212
+```
+| Micronaut Version: 1.2.6
+| JVM Version: 1.8.0_212
+```
 
 1. Created app w/: `mn create-app --lang groovy --features hibernate-gorm com.example.controller-test-demo`
 2. Created Thing, ThingService, ThingController, and ThingControllerSpec.
    The latter two were initially created with `mn create-controller` and modified enough to create controller method and two test cases.
 3. Using H2 memory database, configured in `application.yml`.
 
-= Failures
+# Failures
 
 Both tests fail with:
 
